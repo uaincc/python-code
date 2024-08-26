@@ -38,14 +38,9 @@ source actvate
     trusted-host = pypi.tuna.tsinghua.edu.cn
     ```
 
-## 依赖文件
-```
-pip install requests
-pip install lxml
-```
 
-## 创建 `.py`文件
-- windows powerShell
+## windows创建 `.py`文件
+- powerShell
 ```
 echo >>demo.py
 ```
