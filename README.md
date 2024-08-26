@@ -1,4 +1,4 @@
-> python requests骨架
+> python 在 winodws 下的基础环境搭建
 
 ## Windows 环境配置
 ### Python 下载
