@@ -2,6 +2,15 @@
 
 """
 爬虫可以按照指定的规则自动浏览或抓取网络中的数据信息，而通过 Python Requests 可以很轻松的编写爬虫程序或者脚本。
+
+此代码抓取网站【https://uain.cc/】中的博客文章
+
+数据格式
+{"title":<文章标题>,"url":<文章链接>}
+
+依赖模块
+pip install requests
+pip install lxml
 """
 
 import requests
