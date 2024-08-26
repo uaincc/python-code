@@ -6,11 +6,14 @@
 > <a href="https://www.python.org/" target="_blank">Python 官网</a>
 
 ### Windows 环境
-> Windiws新版终端需要设置为`remotesigned`模式
->`set-ExecutionPolicy RemoteSigned`
+
+Windiws新版终端需要设置为`remotesigned`模式
+以管理员模式执行以下
+```
+set-ExecutionPolicy RemoteSigned
+```
 
 ### Python虚拟环境
-
 > 可将多个项目之间的模块隔离
 
 ```
@@ -34,3 +37,16 @@ source actvate
     index-url = https://pypi.tuna.tsinghua.edu.cn/simple
     trusted-host = pypi.tuna.tsinghua.edu.cn
     ```
+
+## 依赖文件
+```
+pip install requests
+pip install lxml
+```
+
+## 创建 `.py`文件
+- windows powerShell
+```
+echo >>demo.py
+```
+- windows 有提示直接回车跳过
