@@ -25,7 +25,7 @@ python -m venv venv
 ```
 - Liunx
 ```
-source actvate
+source venv/bin/activate
 ```
 
 ### 配置pip国内源
